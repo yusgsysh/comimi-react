@@ -35,6 +35,8 @@ const EVENT_NAMES = [
   "favoritesChange",
   "notification",
   "pageLoadError",
+  "back",
+  "fullscreenRequest",
   "destroy",
 ] as const satisfies readonly ViewerEventName[];
 
